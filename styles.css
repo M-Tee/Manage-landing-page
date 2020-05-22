@@ -1,0 +1,24 @@
+body{
+    background-image: url(images/bg-simplify-section-desktop.svg);
+}
+.first-3-sections{
+    /* padding: 20px 50px; */
+    margin: 30px 100px;
+    
+}
+.bg-color{
+    background-color: #f3613c;
+}
+.section-one{
+    height: 70%;
+    line-height: 1.5;
+}
+
+.section-one{
+    padding-top: 20px;
+}
+
+.menu{
+    margin:0 auto;
+    
+}
