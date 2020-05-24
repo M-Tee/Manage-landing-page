@@ -1,13 +1,22 @@
 body{
     background-image: url(images/bg-simplify-section-desktop.svg);
-}
-.first-3-sections{
-    /* padding: 20px 50px; */
-    margin: 30px 100px;
-    
+    background-size: contain;
+    font-size: 1.1em;
 }
 .bg-color{
     background-color: #f3613c;
+    color: #ffffff;
+}
+
+.first-3-sections{
+    /* padding: 20px 50px; */
+    margin: 30px 80px;
+    
+}
+
+.menu{
+    margin:0 auto;
+    
 }
 .section-one{
     height: 70%;
@@ -15,10 +24,45 @@ body{
 }
 
 .section-one{
+    margin-top: 40px;
+}
+.intro{
     padding-top: 80px;
 }
 
-.menu{
-    margin:0 auto;
+.intro>.get_started{
+    margin-top: 30px;
+}
+.get_started{
+    box-shadow: 0 0 5px#f3613c;
+    border: none;
+    font-weight: bold;
+}
+.get_started:hover{
+    background-color: #f3613ccc;
+    color: #ffffff;
+}
+.content-left{
+    max-width: 400px;
+}
+.content-right{
+    max-width: 450px;
+}
+.number{
+    padding: 20px;
+}
+.number:hover{
+    color: #ffffff;
+}
+.content-container{
+    padding: 20px;
+    min-width: 350px;
+  
+}
+@media only screen and (max-width: 600px){
+    .first-3-sections{
+        margin: 30px 30px;
+        
+    }
     
 }
