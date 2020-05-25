@@ -18,6 +18,9 @@ body{
     margin:0 auto;
     
 }
+.navbar-burger>span{
+    height: 3px;  
+}
 .section-one{
     height: 70%;
     line-height: 1.5;
@@ -71,6 +74,12 @@ body{
     .first-3-sections{
         margin: 30px 30px;
         
+    }
+    .section-one{
+        margin-top: 0px;
+    }
+    .intro{
+        padding-top: 30px;
     }
     
 }
