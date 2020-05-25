@@ -33,9 +33,11 @@ body{
 .intro>.get_started{
     margin-top: 30px;
 }
+.button{
+    border: none;
+}
 .get_started{
     box-shadow: 0 0 5px#f3613c;
-    border: none;
     font-weight: bold;
 }
 .get_started:hover{
@@ -58,6 +60,12 @@ body{
     padding: 20px;
     min-width: 350px;
   
+}
+.image{
+    margin: 10px auto;
+}
+.testimonials-slider{
+    margin: 50px;
 }
 @media only screen and (max-width: 600px){
     .first-3-sections{
