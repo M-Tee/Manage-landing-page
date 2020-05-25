@@ -54,7 +54,7 @@ body{
     max-width: 450px;
 }
 .number{
-    padding: 20px;
+    padding: 10px;
 }
 .number:hover{
     color: #ffffff;
