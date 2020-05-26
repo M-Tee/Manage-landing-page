@@ -28,45 +28,27 @@
 <body>
 
   <section class="first-3-sections">
-      <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-        
-    
-         
-          <nav class="navbar-menu nav" id="navMenu">
-        
-              <div class="navbar_brand navbar-item">
-                  <img src="images/logo.svg" alt="">
-                </div>
-             
-                <ul class="menu is-inline-flex ">
-                  <li><a class="navbar-item" href="#">Pricing</a></li>
-                  <li><a class="navbar-item" href="#"> Product</a></li>
-                  <li><a class="navbar-item" href="#">About Us</a></li>
-                  <li><a class="navbar-item" href="#">Careers</a></li>
-                  <li><a class="navbar-item" href="#">Community</a></li>
-                </ul>
-                <button class="navbar-item button is-rounded bg-color get_started">Get Started</button>
-              </nav>
-      
-    <!-- <nav class="navbar-menu nav">
-        
-    <div class="navbar_brand navbar-item">
-        <img src="images/logo.svg" alt="">
-      </div>
 
-      <ul class="menu is-inline-flex ">
-        <li><a class="navbar-item" href="#">Pricing</a></li>
-        <li><a class="navbar-item" href="#"> Product</a></li>
-        <li><a class="navbar-item" href="#">About Us</a></li>
-        <li><a class="navbar-item" href="#">Careers</a></li>
-        <li><a class="navbar-item" href="#">Community</a></li>
-      </ul>
-      <button class="navbar-item button is-rounded bg-color get_started">Get Started</button>
-    </nav> -->
+    <nav class="navbar">
+      <div class="navbar_brand">
+        <img class="navbar-item is-inline-block" src="images/logo.svg" alt="">
+        <a class="navbar-burger is-inline-block is-pulled-right" href="">
+          <img src="images/icon-hamburger.svg" alt="" id="icon">
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end menu">
+          <a class="navbar-item" href="#">Pricing</a>
+          <a class="navbar-item" href="#"> Product</a>
+          <a class="navbar-item" href="#">About Us</a>
+          <a class="navbar-item" href="#">Careers</a>
+          <a class="navbar-item" href="#">Community</a>
+        </div>
+        <button class="navbar-item button is-rounded bg-color get_started">Get Started</button>
+
+      </div>
+    </nav>
+
 
     <section class="section-one ">
       <div class="columns">
@@ -180,13 +162,16 @@
         </div>
       </div>
     </div>
-    <button class="button is-rounded bg-color get_started">Get Started</button>    
+    <button class="button is-rounded bg-color get_started">Get Started</button>
   </section>
 
-
-
-
-
+  <section class="section-4">
+    <div class=" ">
+      <p class="title is-3 is-inline-block"> Simplify how your team works today.</p>
+    <button class="button is-rounded get_started">Get Started</button> 
+    </div>
+   
+  </section>
 
 
 
@@ -200,8 +185,8 @@
 
   Get Started
 
-  Simplify how your team works today.
-  Get Started
+ 
+ 
 
   Home
   Pricing
@@ -221,6 +206,15 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#icon').click(function () {
+        $('.navbar-burger').toggleClass('.active');
+      });
+    });
+    </script>
 </body>
 
 </html>

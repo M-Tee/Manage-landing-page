@@ -15,11 +15,14 @@ body{
 }
 
 .menu{
-    margin:0 auto;
-    
+    margin:0 auto;    
 }
-.navbar-burger>span{
-    height: 3px;  
+
+.navbar-burger>img{
+    display: none;
+}
+.menu>.navbar-item:hover{
+color: #c0bdbdea;
 }
 .section-one{
     height: 70%;
@@ -71,6 +74,32 @@ body{
 .testimonials-slider{
     margin: 50px;
 }
+@media only screen and (max-width: 1024px){
+
+    .navbar-burger>img{
+        display: unset;
+        transition: ease-in-out;
+    }
+    .navbar-burger>img:hover{
+        width: 70%;
+        transition: ease-in-out;
+    }
+    .navbar-burger:hover{
+        background-color: unset;
+    }
+    .navbar-menu{
+        display:block;
+        text-align: center;
+    }
+    .navbar-menu>.button{
+        display: none;
+    }
+    .navbar-burger.active{
+       display: none;
+    }
+    
+}
+
 @media only screen and (max-width: 600px){
     .first-3-sections{
         margin: 30px 30px;
