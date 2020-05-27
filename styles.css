@@ -65,7 +65,6 @@ color: #c0bdbdea;
 .content-container{
     padding: 20px;
     min-width: 350px;
-  
 }
 
 .image{
@@ -74,6 +73,70 @@ color: #c0bdbdea;
 .testimonials-slider{
     margin: 50px;
 }
+.section-4{
+    margin: 100px 0 0;
+    
+    background-color: #f3613c;
+    color: #ffffff;
+    padding: 45px 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Simplify{
+   
+    max-width: 400px;
+}
+.section-4>.button{
+    color: #f3613c;
+}
+.section-4>.button:hover{
+    background-color: #ffffffed;
+    color: #f3613c8a;
+    box-shadow: 0 0 2px #ffffff;
+
+}
+.footer{
+    background-color: #000000ea;
+    color: #ffffff;
+ 
+    font-size: 13px;
+    font-weight: 300; 
+}
+.footer-menu>p>a{
+    color: unset;
+}
+.footer-menu>p>a:hover{
+    color: #f3613c;
+}
+
+
+
+input{
+    max-width: 250px;  
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: #f3613c;
+    margin-left:5px;
+}
+input:hover{
+    transition: ease-in-out;
+    border: 2px solid #f3613c;
+    box-shadow: 0 0 5px #f3613c;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons>img{
+    padding: 10px;
+}
+.copyright{
+    margin-right: 50px;
+  
+}
+
 @media only screen and (max-width: 1024px){
 
     .navbar-burger>img{
@@ -111,5 +174,19 @@ color: #c0bdbdea;
     .intro{
         padding-top: 30px;
     }
+
+    .section-4,
+    .icons{
+        display: block;
+
+    }
+    .footer{
+        text-align: center;
+        margin: auto;
+    }
+    .copyright{
+        margin: 10px;
+    }
+    
     
 }
